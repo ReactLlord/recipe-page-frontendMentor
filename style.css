@@ -1,0 +1,73 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(29, 76%, 88%)
+      ;
+}
+
+.card{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 550px;
+    background-color:hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 8px;
+}
+img{
+    width: 100%;
+   
+}
+
+.preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.preparation h4{
+    color: hsl(332, 51%, 32%);
+}
+
+h3{
+    color: hsl(14, 45%, 36%); 
+}
+
+p,li{
+    color: hsl(30, 10%, 34%);
+}
+ 
+hr{
+    margin-top: 30px;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+    width: 30%;
+  }
+  
+  td {
+    background-color: #fff;
+     width: 30%;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
